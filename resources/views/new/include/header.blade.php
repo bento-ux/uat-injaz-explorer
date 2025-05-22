@@ -29,7 +29,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
         <img src="/assets/img/pbx.png" class="img-fluid" width="95px" alt="PHILANTHROPHY ON BLOCKS">
-        <img src="/assets/img/bmh.png" class="img-fluid" width="95px" alt="BAITUL MAAL HIDAYATULLAH">
+        <img src="/assets/img/bmh.jpg" class="img-fluid" width="95px" alt="BAITUL MAAL HIDAYATULLAH">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

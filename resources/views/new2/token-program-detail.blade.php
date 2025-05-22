@@ -331,7 +331,7 @@
             ];
             @endphp
             <div class="col-sm-12">
-                <h1 class="h3 fw-bold text-center">Program BMH {{ isset($nama_program[$program]) ? $nama_program[$program] : $program }}</h1>
+                <h1 class="h3 fw-bold text-center">Injez Program {{ isset($nama_program[$program]) ? $nama_program[$program] : $program }}</h1>
             </div>
         </div>
         <div class="row mb-5">

@@ -56,7 +56,7 @@ class TokenProgramController extends Controller
 
         foreach ($allData as $data) {
             $invoiceNumber = $data->invoice_number;
-            $apiResponse = Http::get("https://uat-pay.bmh.or.id/api/v1/invoice/{$invoiceNumber}");
+            $apiResponse = Http::get("https://uat.injazfoundation.com/api/v1/invoice/{$invoiceNumber}");
 
             // Pastikan API mengembalikan data yang valid
             if ($apiResponse->successful()) {
@@ -146,7 +146,7 @@ class TokenProgramController extends Controller
         // Loop untuk menggabungkan setiap row dari $allData dengan data API
         foreach ($allData as $data) {
             $invoiceNumber = $data->invoice_number;
-            $apiResponse = Http::get("https://uat-pay.bmh.or.id/api/v1/invoice/{$invoiceNumber}");
+            $apiResponse = Http::get("https://uat.injazfoundation.com/api/v1/invoice/{$invoiceNumber}");
 
             // Pastikan API mengembalikan data yang valid
             if ($apiResponse->successful()) {

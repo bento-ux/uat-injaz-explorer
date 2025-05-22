@@ -50,7 +50,7 @@ class SearchController extends Controller
             $getInvoiceNumber = $this->modelName::select('invoice_number')->where('txhash', $searchQuery)->first();
             $dbData = $this->modelName::all()->where('txhash', $searchQuery)->first();
 
-            $response = Http::get("https://uat-pay.bmh.or.id/api/v1/invoice/{$getInvoiceNumber->invoice_number}");
+            $response = Http::get("https://uat.injazfoundation.com/api/v1/invoice/{$getInvoiceNumber->invoice_number}");
 
             if ($response->successful()) {
                 $apiData = $response->json();
@@ -92,7 +92,7 @@ class SearchController extends Controller
             $localInvoices = $this->modelName::select('txhash', 'invoice_number')->get();
 
             foreach ($localInvoices as $invoice) {
-                $response = Http::get("https://uat-pay.bmh.or.id/api/v1/invoice/{$invoice->invoice_number}");
+                $response = Http::get("https://uat.injazfoundation.com/api/v1/invoice/{$invoice->invoice_number}");
 
                 if ($response->successful()) {
                     $data = $response->json();

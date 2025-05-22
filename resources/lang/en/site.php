@@ -65,7 +65,7 @@ return [
         "transaksi_hash" => "Transaction Hash",
         "belum_disalurkan" => "Undistributed",
         "tersalurkan" => "Distributed",
-        "diterima" => "Sudah Diterima"
+        "diterima" => "Already received"
     ]
 
 

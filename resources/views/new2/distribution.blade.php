@@ -358,9 +358,9 @@
                             </div>
                           
                             <div class="summary-card">
-                                <h4>Bukti Penerimaan</h4>
+                                <h4>Receipt</h4>
                                 @if($laporanDetails->isEmpty())
-                                    <p>Masih dalam proses penerimaan</p>
+                                    <p>Still in the acceptance process</p>
                                 @else
                                     <div class="row">
                                         <div class="d-grid gap-2" style="grid-template-columns: repeat(2, 1fr);">
@@ -388,11 +388,11 @@
                                                                     <div class="me-5">
                                                                         <h3 class="modal-title" id="imageModalLabel{{ $loop->index }}">{{ $laporan->judul }}</h3>
                                                                         <p class="mt-2">
-    <strong>Deskripsi:</strong> <span class="text-muted small fw-normal">{{ $laporan->deskripsi }}</span>
-</p>
-<p class="mt-1">
-    <strong>Amil:</strong> <span class="text-muted small fw-normal">{{ $laporan->petugas }}</span>
-</p>
+                                                                    <strong>Deskripsi:</strong> <span class="text-muted small fw-normal">{{ $laporan->deskripsi }}</span>
+                                                                </p>
+                                                                <p class="mt-1">
+                                                                    <strong>Amil:</strong> <span class="text-muted small fw-normal">{{ $laporan->petugas }}</span>
+                                                                </p>
 
                                                                     </div>
                                                                 </div>

@@ -47,7 +47,7 @@ Route::fallback(function () {
 
 //Route::get('/hello-world', function () {     return 'Hello World'; });
 
-    Route::post('/hello', function () {     return 'Hello World'; });
+    Route::get('/hello', function () {     return 'Hello World'; });
 
     Route::get('/', [HomeController::class, 'index'])->name('home');
 

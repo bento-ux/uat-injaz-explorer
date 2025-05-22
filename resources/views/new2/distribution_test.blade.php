@@ -440,9 +440,9 @@
                             </div>
                           
                             <div class="summary-card">
-                                <h4>Bukti Penerimaan</h4>
+                                <h4>Receipt</h4>
                                 @if($laporanDetails->isEmpty())
-                                    <p>Masih dalam proses penerimaan</p>
+                                    <p>Still in the acceptance process</p>
                                 @else
                                     <div class="row">
                                         <div class="d-grid gap-2" style="grid-template-columns: repeat(2, 1fr);">

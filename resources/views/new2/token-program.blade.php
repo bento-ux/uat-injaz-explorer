@@ -24,7 +24,7 @@
                 <h2 class="badge text-bg-danger mb-4">Philantrophy on Block</h2>
                 <div class="card">
                     <div class="card-body">
-                        <img src="/assets/img/bmh.png" class="img-fluid" alt="">
+                        <img src="/assets/img/bmh.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                                 </a> 
                             </div>
                         @empty
-                        <p>Belum ada Token Penyaluran</p>
+                        <p>No Yet Token Penyaluran</p>
                         @endif
 
                     </div>
