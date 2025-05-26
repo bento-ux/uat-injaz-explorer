@@ -1,6 +1,7 @@
 FROM php:8.3-fpm-alpine
 
-RUN apk add --no-cache nginx supervisor wget
+RUN apk add --no-cache nginx supervisor wget \
+    && docker-php-ext-install pdo pdo_mysql
 
 RUN mkdir -p /run/nginx
 
